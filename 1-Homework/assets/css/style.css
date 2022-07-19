@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: pink;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 13px;
+}
+
+.logo {
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    height: 400px;
+    position: relative;
+}
+
+.bannerText {
+    position: absolute;
+    top: 38px;
+    text-align: center;
+    width: 100%;
+}
+
+.imgMainDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.imgDiv {
+    border: 2px dashed black;
+    width: 100%;
+    border-radius: 30px;
+    color: red;
+    max-width: 20%;
+    margin-bottom: 30px;
+}
+
+.imgDiv img {
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+}
+
+.imgDiv h3 {
+    text-align: center;
+}
+
+.imgDiv p {
+    padding: 0px 20px;
+    color: black;
+}
+
+.imgDivBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imgDivBox .imgDivPrice {
+    color: red;
+    font-size: 28px;
+}
+
+.imgDivPriceTL {
+    color: red;
+    font-style: italic;
+}
+
+.imgDivAddToBasket {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    height: 150px;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.footerList {
+    list-style-type: none;
+}
+
+.footerList a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.footerList {
+    padding-inline-start: 0;
+}
+
+.footerList li {
+    margin-top: 10px;
+}
+
+/*=================MEDIA QUERIES=================*/
+
+@media only screen and (max-width: 900px) {
+    .imgDiv {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .imgDiv {
+        max-width: 100%
+    }
+}
+
+/*======IPHONE SE======*/
+@media only screen and (max-width: 376px) {
+    .headerLink {
+        margin-right: 5px;
+    }
+}
