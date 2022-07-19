@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Esra ŞEN" />
+    <title>1.Gün Css</title>
+    <style>
+      input[type="text"],
+      .formElement {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+        border: 1px solid red;
+      }
+
+      .formElement:focus {
+        background-color: lightblue;
+      }
+
+      .formSubmit {
+        width: 100%;
+        padding: 13px;
+        background-color: lightblue;
+        border: none;
+        border-radius: 15px;
+        color: white;
+      }
+
+      .formGeneral {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 10px 350px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form class="formGeneral">
+      <label>Ad</label>
+      <input type="text" class="formElement"name="firstname" placeholder="Adınızı giriniz" />
+      <label>Soyad</label>
+      <input type="text" class="formElement" name="lastname" placeholder="Soyadınızı giriniz" />
+      <label>Şehirler</label>
+      <select class="formElement" name="country">
+        <option value="tr">Türkiye</option>
+        <option value="fr">Fransa</option>
+        <option value="en">İngiltere</option>
+      </select>
+
+      <input class="formSubmit" type="submit" value="Kaydet" />
+    </form>
+  </body>
+</html>
