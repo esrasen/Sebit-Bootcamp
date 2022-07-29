@@ -39,7 +39,7 @@ Bootstrap 5 ile web sitesi tasarımı yapılması<br/><br/>
 Web Slider görünüm:
 
 <p align="center">
-  <img src="media/1.png" alt="slider" width="75%" height="75%">
+  <img src="media/1.jpg" alt="slider" width="75%" height="75%">
 </p><br/>
 
 </p>
@@ -49,7 +49,7 @@ Web Slider görünüm:
 Web Content görünüm:
 
 <p align="center">
-  <img src="media/2.png" alt="content" width="75%" height="75%">
+  <img src="media/2.jpg" alt="content" width="75%" height="75%">
 </p><br/>
 
 </p>
@@ -58,7 +58,7 @@ Web Content görünüm:
 Web Footer görünüm:
 
 <p align="center">
-  <img src="media/3.png" alt="footer" width="75%" height="75%">
+  <img src="media/3.jpg" alt="footer" width="75%" height="75%">
 </p><br/>
 
 </p>
@@ -67,7 +67,7 @@ Web Footer görünüm:
 Web Kayıt Ol Modal görünüm:
 
 <p align="center">
-  <img src="media/4.png" alt="kayit" width="75%" height="75%">
+  <img src="media/4.jpg" alt="kayit" width="75%" height="75%">
 </p><br/>
 
 </p>
