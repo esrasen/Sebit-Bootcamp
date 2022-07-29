@@ -29,65 +29,61 @@
 
   <body>
     <header>
-      <div class="container">
-        <br />
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/Homeworks/3-Website/index.html">
-              <img class="img-fluid" width="150" height="20" src="img/logo_transparent.png" alt="" />
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-fluid" width="50" height="20" src="img/logo_transparent.png" alt="" />
+            Electronic <span style="color: red">Shop</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Panel </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kategoriler</a></li>
+                  <li><a class="dropdown-item" href="#">Ürünler</a></li>
+                  <li><a class="dropdown-item" href="#">Kullanıcılar</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Siparişler</a>
+                  </li>
+                </ul>
+              </li>
 
-              Electronic <span style="color: red">Shop</span>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Panel </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kategoriler</a></li>
-                    <li><a class="dropdown-item" href="#">Ürünler</a></li>
-                    <li><a class="dropdown-item" href="#">Kullanıcılar</a></li>
-                    <li>
-                      <a class="dropdown-item" href="/Homeworks/3-Website/OrderIndex.html">Siparişler</a>
-                    </li>
-                  </ul>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Siparişler</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link active" href="/Homeworks/3-Website/OrderIndex.html">Siparişler</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link active" href="/Homeworks/3-Website/Profil.html">Profil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="/Homeworks/3-Website/summary.html"><i class="bi bi-cart"></i>(5)</a>
-                </li>
-              </ul>
-              <div class="navbar-nav ms-auto mb-lg-0">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Arama" aria-label="Search" style="width: 300px" />
-                  <button class="btn btn-outline-success col-sm-3" style="margin-right: 0.5rem" type="submit"><i class="bi bi-search"></i> Ara</button>
-                </form>
-                <br />
-                <a data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn btn-outline-primary" style="margin-right: 0.5rem"><i class="bi bi-person-circle"></i> Üye Ol</a>
-                <br />
-                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-success"><i class="bi bi-box-arrow-in-right"></i> Giriş</a>
-              </div>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="bi bi-cart"></i>(5)</a>
+              </li>
+            </ul>
+            <div class="navbar-nav ms-auto mb-lg-0">
+              <form class="d-flex justify-content-center" role="search">
+                <input class="form-control me-3" type="search" placeholder="Arama" aria-label="Search" style="width: 10.9rem" />
+                <button class="btn btn-outline-success col-sm-3" style="width: 4.4rem; margin-right: 0.5rem" type="submit"><i class="bi bi-search"></i> Ara</button>
+              </form>
+              <br />
+              <a data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn btn-outline-primary" style="margin-right: 0.5rem"><i class="bi bi-person-circle"></i> Üye Ol</a>
+              <br />
+              <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-success"><i class="bi bi-box-arrow-in-right"></i> Giriş</a>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <div class="container">
@@ -125,7 +121,7 @@
         <div class="col-md-3">
           <!-- KATEGORİ LİSTESİ----------------- -->
           <div class="list-group">
-            <a href="/Homeworks/3-Website/index.html" class="list-group-item list-group-item-action active" aria-current="true"> Tüm Ürünler </a>
+            <a href="index.html" class="list-group-item list-group-item-action active" aria-current="true"> Tüm Ürünler </a>
             <a href="#" class="list-group-item list-group-item-action">Bilgisayar</a>
             <a href="#" class="list-group-item list-group-item-action">Telefon</a>
             <a href="#" class="list-group-item list-group-item-action">Kamera</a>
@@ -143,7 +139,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>300 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -158,7 +154,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>4000 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -173,7 +169,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>500 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -188,7 +184,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>7250 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -203,7 +199,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>6300 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -218,7 +214,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>250 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -233,7 +229,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>4500 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -248,7 +244,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>320 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -262,7 +258,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>68 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -276,7 +272,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>8900 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -290,7 +286,7 @@
             </div>
             <div class="card-footer">
               <label for="" style="font-size: 20px; color: crimson"><b>245 $</b></label>
-              <a href="/Homeworks/3-Website/ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
+              <a href="ProductDetails.html" class="btn btn-outline-info" style="float: right">Detay</a>
             </div>
           </div>
         </div>
@@ -298,71 +294,71 @@
     </div>
 
     <!-- ----------------------------------------------------------- -->
-    <div class="container my-5">
-      <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
-        <div class="container p-4 pb-0">
-          <section class="">
-            <div class="row">
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Electronic Shop</h6>
-                <p>Yeni nesil e-ticaret sitesi! Electronic Shop ile ihtiyaçlarınızı hemen karşılayın. Daha iyi bir deneyim yaşamak için Yardım & Destek ekibimiz ile iletişime geçin.</p>
-              </div>
 
-              <hr class="w-100 clearfix d-md-none" />
-
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Hızlı Bağlantılar</h6>
-                <p>
-                  <a class="text-white">Hesabım</a>
-                </p>
-                <p>
-                  <a class="text-white">Müşteri Hizmetleri</a>
-                </p>
-                <p>
-                  <a class="text-white">Hakkımızda</a>
-                </p>
-                <p>
-                  <a class="text-white">Yardım</a>
-                </p>
-              </div>
-
-              <hr class="w-100 clearfix d-md-none" />
-
-              <hr class="w-100 clearfix d-md-none" />
-
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">İletişim</h6>
-                <p><i class="fas fa-home mr-3"></i> Eskişehir-Odunpazarı</p>
-                <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                <p><i class="fas fa-phone mr-3"></i> + 90 234 567 88</p>
-                <p><i class="fas fa-print mr-3"></i> + 90 234 567 89</p>
-              </div>
-
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Sosyal Medya</h6>
-
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
-              </div>
+    <footer class="text-center text-lg-start text-white my-3" style="background-color: #929fba">
+      <div class="container p-4 pb-0">
+        <section class="">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Electronic Shop</h6>
+              <p>Yeni nesil e-ticaret sitesi! Electronic Shop ile ihtiyaçlarınızı hemen karşılayın. Daha iyi bir deneyim yaşamak için Yardım & Destek ekibimiz ile iletişime geçin.</p>
             </div>
-          </section>
-        </div>
 
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2022 Copyright:
-          <a class="text-white" href="#">Esra ŞEN</a>
-        </div>
-      </footer>
-    </div>
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Hızlı Bağlantılar</h6>
+              <p>
+                <a class="text-white">Hesabım</a>
+              </p>
+              <p>
+                <a class="text-white">Müşteri Hizmetleri</a>
+              </p>
+              <p>
+                <a class="text-white">Hakkımızda</a>
+              </p>
+              <p>
+                <a class="text-white">Yardım</a>
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">İletişim</h6>
+              <p><i class="fas fa-home mr-3"></i> Eskişehir-Odunpazarı</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 90 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 90 234 567 89</p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Sosyal Medya</h6>
+
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
+
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#" role="button"><i class="fab fa-twitter"></i></a>
+
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#" role="button"><i class="fab fa-google"></i></a>
+
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#" role="button"><i class="fab fa-instagram"></i></a>
+
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#" role="button"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="#">Esra ŞEN</a>
+      </div>
+    </footer>
+
     <!-- ----------------------------------------------------------------------- -->
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

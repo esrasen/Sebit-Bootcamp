@@ -39,17 +39,25 @@ Bootstrap 5 ile web sitesi tasarımı yapılması<br/><br/>
 Web Slider görünüm:
 
 <p align="center">
-  <img src="media/1.jpg" alt="slider" width="75%" height="75%">
+  <img src="media/1.png" alt="slider" width="75%" height="75%">
 </p><br/>
 
 </p>
 
+<p align="justify"> 
+Web Ürün detay sayfa görünüm:
+
+<p align="center">
+  <img src="media/7.png" alt="giris" width="75%" height="75%">
+</p><br/>
+
+</p>
 
 <p align="justify"> 
 Web Content görünüm:
 
 <p align="center">
-  <img src="media/2.jpg" alt="content" width="75%" height="75%">
+  <img src="media/2.png" alt="content" width="75%" height="75%">
 </p><br/>
 
 </p>
@@ -58,7 +66,7 @@ Web Content görünüm:
 Web Footer görünüm:
 
 <p align="center">
-  <img src="media/3.jpg" alt="footer" width="75%" height="75%">
+  <img src="media/3.png" alt="footer" width="75%" height="75%">
 </p><br/>
 
 </p>
@@ -67,7 +75,7 @@ Web Footer görünüm:
 Web Kayıt Ol Modal görünüm:
 
 <p align="center">
-  <img src="media/4.jpg" alt="kayit" width="75%" height="75%">
+  <img src="media/4.png" alt="kayit" width="75%" height="75%">
 </p><br/>
 
 </p>
@@ -80,6 +88,26 @@ Web Giriş Yap Modal görünüm:
 </p><br/>
 
 </p>
+
+<p align="justify"> 
+Mobil görünüm:
+
+<p align="center">
+  <img src="media/6.png" alt="giris" width="75%" height="75%">
+</p><br/>
+
+</p>
+
+<p align="justify"> 
+Mobil görünüm-2:
+
+<p align="center">
+  <img src="media/8.png" alt="giris" width="75%" height="75%">
+</p><br/>
+
+</p>
+
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
