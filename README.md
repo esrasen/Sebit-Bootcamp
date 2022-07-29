@@ -108,9 +108,9 @@ Coderspace ve Sebit Eğitim ve Bilgi Teknolojileri tarafından düzenlenen Front
 <p align="justify"> 
 Bootcamp boyunca verilen tüm ödevler.
 
-<b><span id="hw-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Homeworks/1-Homework">1.Ödev</a></span></b><br/>
-<b><span id="hw-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Homeworks/2-Bootstrap-Navbar">2.Ödev Navbar</a></span></b><br/>
-<b><span id="hw-3"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Homeworks/3-Website">3.Ödev Website</a></span></b><br/>
+<b><span id="hw-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Homeworks/1-Homework"><span style="color: white;">✤ </span>1.Ödev</a></span></b><br/>
+<b><span id="hw-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Homeworks/2-Bootstrap-Navbar"><span style="color: white;">✤ </span>2.Ödev Navbar</a></span></b><br/>
+<b><span id="hw-3"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Homeworks/3-Website"><span style="color: white;">✤ </span>3.Ödev Website</a></span></b><br/>
 
 </p>
 
@@ -122,34 +122,34 @@ Bootcamp boyunca verilen tüm ödevler.
 Bootcamp boyunca her hafta yapılan çalışmalar.
 
 <br /><b><span id="dy1">1.Hafta:</span></b><br />
-<b><span id="dy1-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-1-Html/1-Html">Html</a></span></b><br/>
-<b><span id="dy1-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-1-Html/2-Css">Css</a></span></b><br/>
+<b><span id="dy1-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-1-Html/1-Html"><span style="color: white;">✤ </span>Html</a></span></b><br/>
+<b><span id="dy1-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-1-Html/2-Css"><span style="color: white;">✤ </span>Css</a></span></b><br/>
 
 <br /><b><span id="dy2">2.Hafta:</span></b><br />
-<b><span id="dy2-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-2-Css/3-Mix">Css-Mix</a></span></b><br/>
-<b><span id="dy3-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-2-Css/4-Position">Css-Position</a></span></b><br/>
+<b><span id="dy2-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-2-Css/3-Mix"><span style="color: white;">✤ </span>Css-Mix</a></span></b><br/>
+<b><span id="dy3-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-2-Css/4-Position"><span style="color: white;">✤ </span>Css-Position</a></span></b><br/>
 
 <br /><b><span id="dy3">3.Hafta:</span></b><br />
-<b><span id="dy3-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-3-Bootstrap/Bootstrap">Bootstrap</a></span></b><br/>
-<b><span id="dy3-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-3-Bootstrap/Burger">Burger</a></span></b><br/>
-<b><span id="dy3-3"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-3-Bootstrap/Burger-Bootstrap">Burger-Bootstrap</a></span></b><br/>
+<b><span id="dy3-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-3-Bootstrap/Bootstrap"><span style="color: white;">✤ </span>Bootstrap</a></span></b><br/>
+<b><span id="dy3-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-3-Bootstrap/Burger"><span style="color: white;">✤ </span>Burger</a></span></b><br/>
+<b><span id="dy3-3"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-3-Bootstrap/Burger-Bootstrap"><span style="color: white;">✤ </span>Burger-Bootstrap</a></span></b><br/>
 
 <br /><b><span id="dy4">4.Hafta:</span></b><br />
-<b><span id="dy4-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/9-Js">Js</a></span></b><br/>
-<b><span id="dy4-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/9-Js-DOM">Js-DOM</a></span></b><br/>
-<b><span id="dy4-3"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/10-Js-String">Js-String</a></span></b><br/>
-<b><span id="dy4-4"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/11-Js-Number">Js-Number</a></span></b><br/>
-<b><span id="dy4-5"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/11-Js-Template-String">Js-Template-String</a></span></b><br/>
-<b><span id="dy4-6"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/12-Array">Array</a></span></b><br/>
-<b><span id="dy4-7"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/13-Boolean">Boolean</a></span></b><br/>
-<b><span id="dy4-8"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/14-TypeveKarsilastirma">Type ve Karşılaştırma</a></span></b><br/>
-<b><span id="dy4-9"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/15-For">For</a></span></b><br/>
-<b><span id="dy4-10"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/15-While">While</a></span></b><br/>
-<b><span id="dy4-11"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/17-If">If</a></span></b><br/>
-<b><span id="dy4-12"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/18-BreakContinue">Break-Continue</a></span></b><br/>
-<b><span id="dy4-13"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/19-Switch">Switch</a></span></b><br/>
-<b><span id="dy4-14"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/20-Global-Local">Global-Local</a></span></b><br/>
-<b><span id="dy4-15"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/21-Function">Function</a></span></b><br/>
+<b><span id="dy4-1"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/9-Js"><span style="color: white;">✤ </span>Js</a></span></b><br/>
+<b><span id="dy4-2"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/9-Js-DOM"><span style="color: white;">✤ </span>Js-DOM</a></span></b><br/>
+<b><span id="dy4-3"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/10-Js-String"><span style="color: white;">✤ </span>Js-String</a></span></b><br/>
+<b><span id="dy4-4"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/11-Js-Number"><span style="color: white;">✤ </span>Js-Number</a></span></b><br/>
+<b><span id="dy4-5"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/11-Js-Template-String"><span style="color: white;">✤ </span>Js-Template-String</a></span></b><br/>
+<b><span id="dy4-6"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/12-Array"><span style="color: white;">✤ </span>Array</a></span></b><br/>
+<b><span id="dy4-7"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/13-Boolean"><span style="color: white;">✤ </span>Boolean</a></span></b><br/>
+<b><span id="dy4-8"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/14-TypeveKarsilastirma"><span style="color: white;">✤ </span>Type ve Karşılaştırma</a></span></b><br/>
+<b><span id="dy4-9"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/15-For"><span style="color: white;">✤ </span>For</a></span></b><br/>
+<b><span id="dy4-10"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/15-While"><span style="color: white;">✤ </span>While</a></span></b><br/>
+<b><span id="dy4-11"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/17-If"><span style="color: white;">✤ </span>If</a></span></b><br/>
+<b><span id="dy4-12"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/18-BreakContinue"><span style="color: white;">✤ </span>Break-Continue</a></span></b><br/>
+<b><span id="dy4-13"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/19-Switch"><span style="color: white;">✤ </span>Switch</a></span></b><br/>
+<b><span id="dy4-14"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/20-Global-Local"><span style="color: white;">✤ </span>Global-Local</a></span></b><br/>
+<b><span id="dy4-15"><a href="https://github.com/esrasen/Sebit-Bootcamp/tree/main/Day-4-Js/21-Function"><span style="color: white;">✤ </span>Function</a></span></b><br/>
 
 </p>
 
