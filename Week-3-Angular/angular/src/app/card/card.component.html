@@ -1,0 +1,26 @@
+<!-- <mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{titleChild}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="imageUrlChild">
+  <mat-card-content>
+    <h3>{{usernameChild}}</h3>
+    <p>
+      {{contentChild}}
+    </p>
+  </mat-card-content>
+</mat-card> -->
+
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{post.title}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="post.imageUrl">
+  <mat-card-content>
+    <h3>{{post.username}}</h3>
+    <p>
+      {{post.content}}
+    </p>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,34 @@
+<!-- <div>
+  <p>İlk Angular Projem</p>
+  {{can}}
+</div> -->
+<!--
+<div *ngIf="isUpdate">
+  True İse
+</div>
+<div *ngIf="!isUpdate">
+  False İse
+</div> -->
+<!--
+<div *ngFor="let post of posts">
+  {{post.title}}
+</div> -->
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-4" *ngFor="let post of posts">
+
+
+      <!-- <app-card [titleChild]="post.title" [imageUrlChild]="post.imageUrl"
+      [usernameChild]="post.username"
+      [contentChild]="post.content"> -->
+<!--
+      </app-card> -->
+
+      <app-card [post]="post"></app-card>
+
+
+    </div>
+  </div>
+</div>
+
+
