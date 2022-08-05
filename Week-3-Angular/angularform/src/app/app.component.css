@@ -1,0 +1,26 @@
+.mat-toolbar{
+  display: flex;
+  justify-content: space-between;
+}
+.mat-toolbar a{
+  text-decoration: none;
+  color: white;
+}
+
+.example-card{
+  max-width: 400px;
+}
+
+.example-header-image{
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-card-header{
+  justify-content: center;
+}
