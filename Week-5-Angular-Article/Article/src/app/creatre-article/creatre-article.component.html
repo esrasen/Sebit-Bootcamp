@@ -1,0 +1,26 @@
+<div style="display:flex;justify-content:center;margin-top:50px;">
+
+  <mat-card style="width: 50%;">
+    <mat-card-content style="display: flex; flex-direction:column">
+
+   <mat-form-field>
+     <mat-label>Kullanıcı Adı</mat-label>
+     <input [(ngModel)]="username" matInput />
+   </mat-form-field>
+
+   <mat-form-field>
+     <mat-label>Başlık</mat-label>
+     <input [(ngModel)]="title" matInput />
+   </mat-form-field>
+   <angular-editor [config]="editorConfig" [(ngModel)]="content"></angular-editor>
+
+     </mat-card-content>
+     <mat-card-actions>
+       <button (click)="post()" style="width:100%;" mat-raised-button color="primary">KAYDET</button>
+
+     </mat-card-actions>
+   </mat-card>
+</div>
+
+
+

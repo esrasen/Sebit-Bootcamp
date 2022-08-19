@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "author": "sdfgh",
+      "title": "asdfg",
+      "content": "asdfgh",
+      "comments": [
+        {
+          "username": "asdf",
+          "commnet": "asdfgh"
+        },
+        {
+          "username": "asd",
+          "commnet": "ASD"
+        },
+        {
+          "username": "QAWERT",
+          "commnet": "asertyu"
+        },
+        {
+          "username": "aaaaaaaaaaaaaa",
+          "commnet": "ccccccccccccc"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "author": "asdfg",
+      "title": "sdfgh",
+      "content": "sdfgh",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "author": "6856768",
+      "title": "hbjnkmlşö865432",
+      "content": "<div><span>esrasdsdsss</span></div>",
+      "comments": [],
+      "id": 3
+    },
+    {
+      "author": "aaaaaaa",
+      "title": "eeeeeeeeeeee",
+      "content": "ccccccccccccc",
+      "comments": [],
+      "id": 4
+    }
+  ]
+}

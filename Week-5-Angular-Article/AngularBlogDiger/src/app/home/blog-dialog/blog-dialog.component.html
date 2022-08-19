@@ -1,0 +1,70 @@
+<div style="display: flex; justify-content: space-between">
+  <div style="display: flex; align-items: center">
+    <h3 style="margin: 0">{{ isUpdate ? "yazyı güncelle" : "yazıyı gör" }}</h3>
+  </div>
+
+  <button mat-button style="font-size: 24px" (click)="close()">x</button>
+</div>
+
+<form [formGroup]="form" *ngIf="isUpdate" style="min-width: 500px">
+  <div class="container">
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Blog Başlığı</mat-label>
+        <input matInput formControlName="title" />
+        <mat-error *ngIf="form.get('title')?.hasError('required')">
+          Başlık zorunludur
+        </mat-error>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Blog İçeriği</mat-label>
+        <textarea
+          matInput
+          formControlName="body"
+          cols="40"
+          rows="10"
+        ></textarea>
+        <mat-error *ngIf="form.get('body')?.hasError('required')">
+          Başlık içeriği zorunludur
+        </mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div>
+    <button
+      mat-raised-button
+      color="primary"
+      [disabled]="!form.valid"
+      (click)="onSubmit()"
+    >
+      Güncelle
+    </button>
+  </div>
+</form>
+
+<div *ngIf="!isUpdate" class="container">
+  <div class="row mb-2">
+    <div class="col-lg-6">
+      <img class="w-100" src="assets/images/image{{ imageUrl }}.jpg" alt="" />
+    </div>
+    <div class="col-lg-6">
+      <h2>{{ title }}</h2>
+      <p>{{ content }}</p>
+    </div>
+  </div>
+
+  <div class="row" style="background-color: lightgrey;padding:20px;margin-bottom:20px" *ngFor="let comment of commentData">
+    <div class="col-lg-2">
+      <img style="width: 50px;border-radius:50%" src="assets/images/profile/profile{{comment.userId}}.jpg">
+
+    </div>
+
+    <div class="col-lg-10">
+<h3>{{comment.name}}</h3>
+<p>{{comment.body}}</p>
+    </div>
+  </div>
+</div>

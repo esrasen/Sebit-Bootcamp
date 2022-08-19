@@ -1,0 +1,11 @@
+::ng-deep .mat-dialog-container{
+height: auto;
+}
+/* ::ng-deep, >>> and /deep/ disable view encapsulation for
+specific CSS rules, in other words, it gives you access to DOM
+ elements, which are not in your component's HTML. For example,
+ if you're using Angular Material (or any other third-party library
+  like this), some generated elements are outside of your component's
+  area (such as dialog) and you can't access those elements directly
+  or using a regular CSS way. If you want to change the styles of those
+  elements, you can use one of those three things, for example: */
